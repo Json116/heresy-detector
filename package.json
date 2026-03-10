@@ -1,0 +1,26 @@
+{
+  "name": "heresy-detector",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "vite --config vite.config.js --port 3000",
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview --config vite.config.js"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "concurrently": "^9.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^6.0.0",
+    "vite-plugin-pwa": "^0.21.0"
+  }
+}

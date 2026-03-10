@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-heresy: #dc2626;
+  --color-caution: #d97706;
+  --color-orthodox: #16a34a;
+  --color-surface: #1a1a2e;
+  --color-surface-raised: #16213e;
+  --color-surface-card: #0f3460;
+  --color-accent: #e94560;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: #e2e8f0;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  min-height: 100dvh;
+}
+
+#root {
+  min-height: 100dvh;
+}
