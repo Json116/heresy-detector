@@ -1,18 +1,13 @@
 import { useState, useCallback } from 'react'
 
 const STORAGE_KEY = 'hd_password'
-const EXPECTED = import.meta.env.VITE_APP_PASSWORD ?? 'changeme'
 
-function isAuthed() {
-  try {
-    return localStorage.getItem(STORAGE_KEY) === EXPECTED
-  } catch {
-    return false
-  }
+function getSaved() {
+  try { return localStorage.getItem(STORAGE_KEY) ?? '' } catch { return '' }
 }
 
 export default function PasswordGate({ children }) {
-  const [authed, setAuthed] = useState(isAuthed)
+  const [authed, setAuthed] = useState(() => getSaved().length > 0)
   const [inputValue, setInputValue] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState(null)
@@ -21,19 +16,15 @@ export default function PasswordGate({ children }) {
     try { localStorage.removeItem(STORAGE_KEY) } catch {}
     setAuthed(false)
     setInputValue('')
-    setError('Session expired — please re-enter your password')
+    setError('Incorrect password — please try again')
   }, [])
 
   function handleSubmit(e) {
     e.preventDefault()
-    if (inputValue === EXPECTED) {
-      try { localStorage.setItem(STORAGE_KEY, inputValue) } catch {}
-      setAuthed(true)
-      setError(null)
-    } else {
-      setError('Incorrect password')
-      setInputValue('')
-    }
+    if (!inputValue) return
+    try { localStorage.setItem(STORAGE_KEY, inputValue) } catch {}
+    setAuthed(true)
+    setError(null)
   }
 
   if (authed) {
