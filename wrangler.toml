@@ -1,3 +1,6 @@
 name = "heresy-detector"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "client/dist"
+
+[vars]
+VITE_APP_PASSWORD = "changeme"
