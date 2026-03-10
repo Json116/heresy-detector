@@ -4,7 +4,7 @@ import ResultCard from './components/ResultCard.jsx'
 import LoadingState from './components/LoadingState.jsx'
 import AboutPanel from './components/AboutPanel.jsx'
 
-export default function App() {
+export default function App({ onUnauthorized }) {
   const [result, setResult] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
@@ -17,9 +17,17 @@ export default function App() {
     try {
       const res = await fetch('/api/check', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'X-App-Password': localStorage.getItem('hd_password') ?? ''
+        },
         body: JSON.stringify({ statement })
       })
+
+      if (res.status === 401) {
+        onUnauthorized?.()
+        return
+      }
 
       if (!res.ok) {
         const data = await res.json().catch(() => ({}))

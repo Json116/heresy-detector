@@ -12,9 +12,22 @@ PWA web app: users input a theological statement → AI verdict mapping against 
 - PWA: `vite-plugin-pwa`
 
 ## Current Status
-- Phase 1 complete: Foundation files created
+- Phase 2 complete: Cloudflare Pages + password gate implemented
 - Mock API cycles through 4 scenarios (no real API key needed)
 - Real Claude API wired in later with minimal changes
+
+## Deployment (Cloudflare Pages)
+- `functions/api/check.js` = Cloudflare Pages Function (replaces Express in prod)
+- `wrangler.toml` — pages_build_output_dir = `client/dist`
+- Dashboard env vars: `APP_PASSWORD` (worker) + `VITE_APP_PASSWORD` (build-time)
+- `npm run pages:dev` — test with Cloudflare runtime locally
+
+## Password Gate
+- `PasswordGate.jsx` — wraps app, checks localStorage vs `VITE_APP_PASSWORD`
+- Layer 1: frontend (localStorage + VITE_APP_PASSWORD baked at build time)
+- Layer 2: Worker reads `X-App-Password` header vs `APP_PASSWORD` env var
+- 401 response → `onUnauthorized()` → clears localStorage, re-shows gate
+- Default password locally: `changeme` (falls back when env var not set)
 
 ## Key Notes
 - ESM JSON import: use `with { type: 'json' }` (not deprecated `assert`)
