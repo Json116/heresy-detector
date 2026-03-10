@@ -30,10 +30,19 @@ app.post('/api/check', async (req, res) => {
   }
 })
 
+app.post('/api/auth', (req, res) => {
+  const appPassword = process.env.APP_PASSWORD ?? 'changeme'
+  const provided = req.headers['x-app-password']
+  if (provided !== appPassword) {
+    return res.status(401).json({ error: 'Unauthorised' })
+  }
+  res.json({ ok: true })
+})
+
 app.get('/api/health', (_req, res) => {
   res.json({ status: 'ok', heresies: 37 })
 })
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Heresy Detector server running on http://localhost:${PORT}`)
 })

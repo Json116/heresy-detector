@@ -6,11 +6,20 @@ function getSaved() {
   try { return localStorage.getItem(STORAGE_KEY) ?? '' } catch { return '' }
 }
 
+async function validateWithServer(password) {
+  const res = await fetch('/api/auth', {
+    method: 'POST',
+    headers: { 'X-App-Password': password }
+  })
+  return res.ok
+}
+
 export default function PasswordGate({ children }) {
   const [authed, setAuthed] = useState(() => getSaved().length > 0)
   const [inputValue, setInputValue] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [error, setError] = useState(null)
+  const [checking, setChecking] = useState(false)
 
   const handleUnauthorized = useCallback(() => {
     try { localStorage.removeItem(STORAGE_KEY) } catch {}
@@ -19,12 +28,25 @@ export default function PasswordGate({ children }) {
     setError('Incorrect password — please try again')
   }, [])
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault()
-    if (!inputValue) return
-    try { localStorage.setItem(STORAGE_KEY, inputValue) } catch {}
-    setAuthed(true)
+    if (!inputValue || checking) return
+    setChecking(true)
     setError(null)
+    try {
+      const ok = await validateWithServer(inputValue)
+      if (ok) {
+        try { localStorage.setItem(STORAGE_KEY, inputValue) } catch {}
+        setAuthed(true)
+      } else {
+        setError('Incorrect password')
+        setInputValue('')
+      }
+    } catch {
+      setError('Could not connect — please try again')
+    } finally {
+      setChecking(false)
+    }
   }
 
   if (authed) {
@@ -48,7 +70,8 @@ export default function PasswordGate({ children }) {
               onChange={e => setInputValue(e.target.value)}
               placeholder="Password"
               autoFocus
-              className="w-full rounded-xl bg-slate-800 border border-slate-700 px-4 py-3 pr-12 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-500/60"
+              disabled={checking}
+              className="w-full rounded-xl bg-slate-800 border border-slate-700 px-4 py-3 pr-12 text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-amber-500/60 disabled:opacity-50"
             />
             <button
               type="button"
@@ -66,9 +89,10 @@ export default function PasswordGate({ children }) {
 
           <button
             type="submit"
-            className="rounded-xl bg-amber-600 hover:bg-amber-500 active:bg-amber-700 text-white font-semibold py-3 transition-colors"
+            disabled={checking}
+            className="rounded-xl bg-amber-600 hover:bg-amber-500 active:bg-amber-700 text-white font-semibold py-3 transition-colors disabled:opacity-50"
           >
-            Unlock
+            {checking ? 'Checking…' : 'Unlock'}
           </button>
         </form>
       </div>
