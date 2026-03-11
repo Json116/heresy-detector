@@ -1,5 +1,5 @@
 import { SYSTEM_PROMPT } from '../../prompt.js'
-import heresies from '../../data/MasterHeresyList.json' with { type: 'json' }
+import heresies from '../../data/MasterHeresyList.json'
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
