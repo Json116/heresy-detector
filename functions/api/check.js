@@ -1,5 +1,6 @@
 import { SYSTEM_PROMPT } from '../../prompt.js'
 import heresies from '../../data/MasterHeresyList.json'
+import { mockCheck } from '../../server/mock.js'
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
@@ -28,7 +29,10 @@ export async function onRequestPost(context) {
   if (statement.length > 2000) return json({ error: 'statement exceeds 2000 characters' }, 400)
 
   const apiKey = env.ANTHROPIC_API_KEY
-  if (!apiKey) return json({ error: 'ANTHROPIC_API_KEY not configured' }, 500)
+  if (!apiKey) {
+    const result = await mockCheck(statement.trim())
+    return json(result, 200)
+  }
 
   const userMessage =
     `Statement submitted for analysis: "${statement.trim()}"\n\n` +
