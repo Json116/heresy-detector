@@ -1,0 +1,1065 @@
+{
+  "metadata": {
+    "title": "Christian Heresies Database",
+    "version": "0.1",
+    "traditions": ["Catholic", "Eastern Orthodox", "Protestant (broad)"],
+    "verdict_key": {
+      "universal": "Condemned by Catholic, Eastern Orthodox, and Protestant traditions",
+      "disputed": "Condemned by some traditions, considered orthodox by others",
+      "tradition_specific": "Condemned within one or two traditions only"
+    },
+    "total_entries": 41
+  },
+  "heresies": [
+    {
+      "id": "ebionitism",
+      "name": "Ebionitism",
+      "alternate_names": ["Ebionites", "Jewish Christianity (heterodox)"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Implicitly condemned at the Council of Nicaea (325); addressed by Irenaeus (c. 180) and Epiphanius in Panarion (c. 375)",
+      "fingerprints": [
+        "Jesus was a natural-born human, the biological son of Joseph and Mary",
+        "Jesus was not divine by nature but was chosen or adopted by God at his baptism",
+        "Christ had no pre-existence before his earthly birth",
+        "The virgin birth is denied",
+        "Salvation requires full observance of the Mosaic Law",
+        "Paul was a false apostle and apostate from the Law",
+        "Jesus became the Son of God by merit or appointment, not by nature",
+        "The Old Testament Law is binding on all Christians"
+      ],
+      "summary": "Ebionitism denied the divinity and virgin birth of Christ, teaching he was a righteous man adopted by God at his baptism. It insisted on full Torah observance for salvation and rejected Paul entirely."
+    },
+    {
+      "id": "docetism",
+      "name": "Docetism",
+      "alternate_names": ["Docetae", "Phantom Heresy"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Nicaea (325) and Council of Chalcedon (451); addressed by Ignatius of Antioch (c. 107) and Irenaeus (c. 180)",
+      "fingerprints": [
+        "Christ only appeared to have a physical body",
+        "Christ only seemed to suffer and die",
+        "The divine cannot truly become material or flesh",
+        "Matter is inherently evil or inferior to spirit",
+        "Jesus was a purely spiritual being with a phantom or illusory body",
+        "The crucifixion was not a real physical event",
+        "The divine Christ departed from the human Jesus before the crucifixion",
+        "Christ did not truly experience human suffering",
+        "The resurrection was not a bodily resurrection"
+      ],
+      "summary": "Docetism taught that Christ only appeared to be human and only seemed to suffer and die. Rooted in the belief that matter is evil, it denied the true Incarnation and therefore undermined the reality of the atonement."
+    },
+    {
+      "id": "gnosticism",
+      "name": "Gnosticism",
+      "alternate_names": [
+        "Valentinianism",
+        "Sethianism",
+        "Ophitism",
+        "Basilidianism",
+        "Naassenism",
+        "Thomasine Gnosticism"
+      ],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned implicitly at Nicaea (325); refuted comprehensively by Irenaeus in Adversus Haereses (c. 180), Tertullian, Hippolytus, and Origen",
+      "fingerprints": [
+        "The material world is evil or inferior and was created by a lesser or evil deity",
+        "The God of the Old Testament is an inferior, ignorant, or malevolent creator deity",
+        "The highest true God is entirely spiritual and remote from the material world",
+        "Salvation comes through secret knowledge (gnosis) rather than faith or grace",
+        "Certain humans contain a divine spark of light trapped in evil matter",
+        "Christ was a spiritual revealer of knowledge, not a true incarnate savior",
+        "The death of Christ has no atoning significance",
+        "The physical resurrection is denied or spiritualized",
+        "Scripture must be decoded through secret Gnostic interpretation",
+        "There are multiple levels of divine beings (aeons) between the highest God and the material world",
+        "The body and material existence are prisons to be escaped, not redeemed"
+      ],
+      "summary": "Gnosticism was a broad movement teaching radical dualism between spirit and matter, that the material world was created by an evil lesser god, and that salvation comes through secret spiritual knowledge rather than faith. It reinterpreted Christ as a spiritual revealer and denied the true Incarnation and atonement."
+    },
+    {
+      "id": "marcionism",
+      "name": "Marcionism",
+      "alternate_names": ["Marcionites"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Excommunicated by the Roman church (c. 144); refuted by Justin Martyr, Irenaeus, and Tertullian in Adversus Marcionem (5 books)",
+      "fingerprints": [
+        "The God of the Old Testament and the God of the New Testament are two different Gods",
+        "The Old Testament God is inferior, wrathful, or evil",
+        "The Old Testament should be entirely rejected as Christian Scripture",
+        "Jesus revealed a previously unknown higher God of love",
+        "Christ had no real physical body and only appeared to be human",
+        "Paul is the only true apostle",
+        "The Christian canon should exclude the Old Testament entirely",
+        "The God of Israel is the source of evil or injustice in the world",
+        "The New Testament must be purged of Jewish or Old Testament influences"
+      ],
+      "summary": "Marcionism taught that the wrathful God of the Old Testament and the loving God revealed by Jesus were two entirely different deities. Marcion rejected the entire Old Testament, produced a truncated canon, and held a docetic view of Christ's body."
+    },
+    {
+      "id": "montanism",
+      "name": "Montanism",
+      "alternate_names": ["The New Prophecy", "Cataphrygians"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by a series of Asian synods (late 2nd century); Apollinaris of Hierapolis and others wrote refutations; later condemned by Justinian's legislation (6th century)",
+      "fingerprints": [
+        "New divine revelation continues after the apostolic age",
+        "The Holy Spirit speaks new binding truth through living prophets",
+        "New prophecy can supersede or add to Scripture",
+        "The apostolic deposit of faith is not the final or complete revelation",
+        "Specific living individuals are the direct mouthpiece of the Holy Spirit",
+        "The institutional church has no authority to test or reject prophetic claims",
+        "Moral requirements beyond Scripture are binding on all Christians",
+        "Martyrdom should be actively sought rather than avoided",
+        "Post-baptismal serious sins are unforgivable"
+      ],
+      "summary": "Montanism claimed that ongoing direct prophecy through Montanus and his associates superseded the apostolic tradition. Its core error was undermining the sufficiency and closure of Scripture by adding new binding divine revelation."
+    }
+    ,
+    {
+      "id": "modalism",
+      "name": "Modalism",
+      "alternate_names": ["Sabellianism", "Patripassianism", "Monarchianism (Modalist)", "Noëtianism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Sabellius excommunicated by Pope Callixtus I (c. 220); condemned at the First Council of Constantinople (381); refuted by Tertullian in Adversus Praxean (c. 213)",
+      "fingerprints": [
+        "Father, Son, and Holy Spirit are not three distinct persons but three modes or masks of one person",
+        "God reveals himself successively as Father, then Son, then Spirit",
+        "The Father and the Son are the same person",
+        "The Father suffered and died on the cross",
+        "There is no real distinction between the persons of the Trinity",
+        "Jesus is the Father, Son, and Holy Spirit simultaneously",
+        "The Trinity is three names or titles for one divine person, not three persons",
+        "The Son has no distinct personal existence apart from the Father",
+        "Trinitarian distinctions in Scripture are merely different roles of the same person"
+      ],
+      "summary": "Modalism taught that Father, Son, and Holy Spirit are not three distinct persons but three successive modes or manifestations of one single divine person. It preserved divine unity but destroyed real Trinitarian distinction, and implied that the Father himself suffered on the cross."
+    },
+    {
+      "id": "arianism",
+      "name": "Arianism",
+      "alternate_names": ["Arianism", "Semi-Arianism", "Homoianism", "Anomoeanism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Nicaea (325); reaffirmed and expanded at the First Council of Constantinople (381); the Nicene Creed is the primary anti-Arian document",
+      "fingerprints": [
+        "Christ is a created being, not eternal God",
+        "There was a time when the Son did not exist",
+        "The Son was brought into existence by the Father before all ages",
+        "The Son is subordinate to the Father in nature and essence, not just in role",
+        "Christ is the greatest and first of all creatures but is still a creature",
+        "The Son is not of the same substance as the Father",
+        "The Son is similar to the Father but not equal in divine nature",
+        "Because the Son is a creature he is capable of change or moral failure",
+        "The Son did not exist before he was begotten or created by the Father",
+        "Calling Christ God is honorific, not a statement of his true nature",
+        "The Father alone is truly and fully God"
+      ],
+      "summary": "Arianism taught that the Son of God was the first and greatest of God's creatures, brought into being by the Father before all ages, but not co-eternal or co-equal with him. Its famous slogan was 'there was a time when he was not.' Because a created Christ cannot truly save, Arianism undermines the entire doctrine of salvation."
+    },
+    {
+      "id": "donatism",
+      "name": "Donatism",
+      "alternate_names": ["Donatists", "Circumcellions (radical wing)"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Arles (314) and the Council of Milan (316); definitively ruled against at the Conference of Carthage (411); refuted extensively by Augustine of Hippo",
+      "fingerprints": [
+        "The validity of a sacrament depends on the moral worthiness of the minister",
+        "A sinful or lapsed priest cannot administer valid sacraments",
+        "The church must be composed only of the morally pure",
+        "Baptism performed by an unworthy minister must be repeated",
+        "The holiness of the church depends on the holiness of its clergy",
+        "Those who compromised under persecution permanently forfeit their priestly authority",
+        "A pure remnant church is the only true church",
+        "Sacraments administered by traditors (those who handed over scriptures) are invalid"
+      ],
+      "summary": "Donatism taught that the validity of sacraments depended on the moral purity of the minister. Arising from the Diocletianic persecution, it formed a rigorist schismatic church claiming to be the only true church. Augustine's response established that sacraments are valid by Christ's action, not the minister's holiness."
+    },
+    {
+      "id": "pelagianism",
+      "name": "Pelagianism",
+      "alternate_names": ["Caelestians"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Carthage (411 and 418) and Council of Ephesus (431); refuted extensively by Augustine of Hippo",
+      "fingerprints": [
+        "Human beings are born morally neutral, not corrupted by original sin",
+        "The human will has full capacity to choose good without any divine grace",
+        "Adam's sin affected only Adam, not all of humanity",
+        "Original sin is merely a bad example set by Adam, not an inherited corruption or guilt",
+        "Grace is only external assistance such as the law, Scripture, or Christ's example",
+        "Salvation can be achieved by human moral effort and free will alone",
+        "People can choose God and initiate salvation entirely without divine assistance",
+        "Baptism does not remove an inherited sinful nature because none exists",
+        "Christ's work is primarily educational and exemplary, not substitutionary or atoning",
+        "Human nature after the Fall retains full and unimpaired capacity for righteousness"
+      ],
+      "summary": "Pelagianism held that humans are born with the same moral freedom as Adam before the Fall and can achieve righteousness without supernatural grace. It redefined grace as merely external aids like the law and Christ's example, effectively making salvation a human achievement and stripping Christ's death of redemptive necessity."
+    },
+    {
+      "id": "semi_pelagianism",
+      "name": "Semi-Pelagianism",
+      "alternate_names": ["Massilians", "Semipelagianism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Second Council of Orange (529), which affirmed Augustinian grace against it",
+      "fingerprints": [
+        "The first movement toward God — the initial desire for salvation — comes from human will unaided by grace",
+        "Grace is necessary for perseverance and completion of salvation but not for its initiation",
+        "God gives grace in response to the human will's initial unaided movement toward him",
+        "Human beings retain enough goodness after the Fall to begin seeking God without assistance",
+        "Faith begins as a human act before grace responds and cooperates with it",
+        "God's election is based on his foreknowledge of who will freely choose him first",
+        "The will and grace cooperate as equal partners in initiating salvation"
+      ],
+      "summary": "Semi-Pelagianism moderated full Pelagianism by acknowledging that grace is necessary for completing salvation, but taught that the initial movement toward God — the first step of faith — comes from the human will unaided by divine grace. Condemned at Orange (529), which affirmed that even the beginning of faith is a gift of grace."
+    },
+    {
+      "id": "nestorianism",
+      "name": "Nestorianism",
+      "alternate_names": ["Nestorians", "Dyophysitism (pejorative usage)"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Ephesus (431); refined at the Council of Chalcedon (451); Nestorius was deposed and exiled",
+      "fingerprints": [
+        "Christ is two persons loosely joined rather than one person",
+        "The divine Son and the human Jesus are distinct persons united by moral or relational union",
+        "Mary gave birth to the human person Jesus only, not to God incarnate",
+        "Mary should not be called Theotokos (God-bearer or Mother of God)",
+        "The divine nature and human nature in Christ are so distinct they constitute separate subjects",
+        "The union of divine and human in Christ is one of will or relationship, not of person",
+        "God the Son did not truly suffer and die because the suffering belonged to the human person only",
+        "The Incarnation is a close cooperation between a divine person and a human person"
+      ],
+      "summary": "Nestorianism so strongly divided Christ's two natures that it was charged with teaching two persons — a divine Son and a human Jesus — joined by a moral rather than a true personal union. This fractured the Incarnation and undermined the atonement, since the divine Son would not have truly suffered and died."
+    }
+    ,
+    {
+      "id": "eutychianism",
+      "name": "Eutychianism",
+      "alternate_names": ["Monophysitism", "Non-Chalcedonian Christology"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Chalcedon (451), which defined Christ as one person in two natures without confusion, change, division, or separation; Eutyches was deposed",
+      "fingerprints": [
+        "Christ's human nature was absorbed into or overwhelmed by his divine nature",
+        "After the Incarnation Christ has only one nature, not two",
+        "The human nature of Christ was dissolved into the divine like a drop in the ocean",
+        "Christ did not retain a full and complete human nature after the Incarnation",
+        "The divine nature consumed or replaced the human nature in Christ",
+        "Christ is not truly consubstantial with humanity after the union of natures",
+        "The two natures of Christ were mixed or blended into a single new nature",
+        "Christ's humanity was not the same kind of humanity as ours"
+      ],
+      "summary": "Eutychianism taught that Christ's human nature was absorbed into his divine nature at the Incarnation, leaving only one nature. A reaction against Nestorianism, it went too far in the opposite direction and effectively denied the full humanity of Christ, undermining the atonement just as Docetism does."
+    },
+    {
+      "id": "apollinarianism",
+      "name": "Apollinarianism",
+      "alternate_names": ["Apollinarism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the First Council of Constantinople (381); refuted by Gregory of Nazianzus in Epistles 101 and 102",
+      "fingerprints": [
+        "The divine Logos replaced the human rational soul or mind of Christ",
+        "Christ did not have a complete human nature because his rational soul was divine",
+        "Christ had a human body but not a full human rational or spiritual nature",
+        "The divine nature of Christ substituted for the highest part of his humanity",
+        "Christ's person was composed of a human body and the divine Logos, with no human mind",
+        "A complete human rational soul in Christ would threaten the unity of his person",
+        "What is not assumed by Christ is not redeemed"
+      ],
+      "summary": "Apollinarianism taught that in the Incarnation the divine Logos replaced Christ's human rational soul, leaving him with a human body but no complete human mind or spirit. Gregory of Nazianzus delivered the decisive refutation: what Christ did not assume, he did not redeem — meaning an incomplete humanity leaves humanity incompletely saved."
+    },
+    {
+      "id": "manichaeism",
+      "name": "Manichaeism",
+      "alternate_names": ["Manicheans", "Manichaeans"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by Roman imperial edict under Diocletian (297); refuted extensively by Augustine of Hippo in Contra Faustum, De Moribus Manichaeorum, and De Natura Boni",
+      "fingerprints": [
+        "Good and evil are two co-eternal and equal cosmic principles",
+        "The material world is inherently evil and was created by a dark or evil force",
+        "The human body is a prison of evil matter trapping a divine spark of light",
+        "Salvation means escaping from matter and returning the soul to the realm of light",
+        "The God of light did not create the physical world",
+        "Christ, Buddha, and other figures were spiritual enlighteners, not unique saviors",
+        "The physical body of Christ was not real — he was a purely spiritual being",
+        "The Old Testament God is an evil or lesser deity associated with darkness",
+        "There are two tiers of the saved — the fully enlightened and their supporters",
+        "Marriage and procreation are evil because they trap more light particles in matter"
+      ],
+      "summary": "Manichaeism was a syncretic dualist religion blending Zoroastrian, Buddhist, Gnostic, and Christian elements. It taught that good and evil are co-eternal cosmic forces, that matter is evil, and that salvation means liberating divine light-sparks from material imprisonment. Its Christ was purely spiritual with no real body or atoning death."
+    },
+    {
+      "id": "iconoclasm",
+      "name": "Iconoclasm",
+      "alternate_names": ["Image-breaking", "Byzantine Iconoclasm"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "Catholic and Eastern Orthodox traditions condemn Iconoclasm as heresy, settled definitively at the Second Council of Nicaea (787). Many Protestant traditions, however, share some iconoclast concerns about religious images, particularly in the Reformed tradition, and do not consider the veneration of icons to be required or the rejection of them to be heretical. The Protestant verdict here is therefore disputed rather than a clear condemnation of Iconoclasm as heresy.",
+      "council_condemnation": "Condemned at the Second Council of Nicaea (787), the seventh ecumenical council; icon veneration definitively restored at the Triumph of Orthodoxy (843)",
+      "fingerprints": [
+        "Depicting Christ or the saints in images is forbidden by God",
+        "Venerating religious images is always equivalent to idolatry",
+        "The divine nature of Christ cannot and should not be depicted in art",
+        "All physical representations of Christ or holy persons must be destroyed",
+        "The Incarnation does not change the prohibition on depicting God",
+        "Any honor given to a religious image is worship given to a material object",
+        "The use of icons in worship is a corruption imported from paganism"
+      ],
+      "summary": "Byzantine Iconoclasm was the movement, largely driven by imperial power, to destroy religious images and prohibit their veneration. Orthodox and Catholic traditions condemn it as heresy, settled at Nicaea II (787). Many Protestant traditions share concerns about image veneration and do not consider rejection of icons to be heretical, making this a disputed verdict."
+    },
+    {
+      "id": "paulicianism",
+      "name": "Paulicianism",
+      "alternate_names": ["Paulicians"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by Byzantine imperial edicts; violently persecuted under Empress Theodora (c. 843); refuted in Byzantine theological literature",
+      "fingerprints": [
+        "The material world was created by an evil principle or being",
+        "The God of the Old Testament is an evil or lesser deity",
+        "The Old Testament should be entirely rejected",
+        "Christ did not have a real physical body",
+        "The crucifixion and resurrection were not physical events",
+        "All sacraments are invalid or unnecessary",
+        "The cross as a symbol should be rejected",
+        "The church hierarchy and institutional church are corrupt or illegitimate",
+        "Mary should not be venerated as the Mother of God"
+      ],
+      "summary": "Paulicianism was a dualist movement originating in Armenia that rejected the material world as the creation of an evil principle, held a docetic Christology, and rejected the Old Testament, sacraments, church hierarchy, and veneration of Mary. It was a significant predecessor to later medieval dualist movements like Bogomilism and Catharism."
+    }
+    ,
+    {
+      "id": "bogomilism",
+      "name": "Bogomilism",
+      "alternate_names": ["Bogomils", "Phundagiagitae"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by local Bulgarian church councils and Byzantine synods; refuted by Euthymius Zigabenus in the Dogmatic Panoply (c. 1100) commissioned by Emperor Alexios I",
+      "fingerprints": [
+        "The material world was created by Satan or a fallen divine being, not the true God",
+        "Satan is identified with the God of the Old Testament or as a fallen son of God",
+        "The true God is entirely spiritual and had no role in creating the physical world",
+        "Christ was a purely spiritual being who did not truly become flesh",
+        "The cross is a symbol of evil and should be rejected",
+        "All material sacraments are invalid and should be rejected",
+        "The institutional church is a Satanic institution",
+        "The Old Testament should be entirely rejected",
+        "Marriage and reproduction are evil because they perpetuate material existence",
+        "There are two tiers of believers — the perfect inner circle and ordinary followers",
+        "The resurrection of the body is denied"
+      ],
+      "summary": "Bogomilism was a dualist gnostic movement from 10th-century Bulgaria teaching that Satan created the material world and that Christ was a purely spiritual being. It rejected sacraments, the cross, church hierarchy, and the Old Testament. It was a direct predecessor to Catharism in Western Europe."
+    },
+    {
+      "id": "catharism",
+      "name": "Catharism",
+      "alternate_names": ["Cathars", "Albigensians", "Bonhommes", "Pure Ones"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at Lateran III (1179) and Lateran IV (1215); the Albigensian Crusade launched by Pope Innocent III (1209–1229); the fall of Montségur (1244) effectively ended organized Catharism",
+      "fingerprints": [
+        "The material world is the creation of an evil god or principle",
+        "The true God of love is entirely spiritual and did not create physical matter",
+        "The God of the Old Testament is evil or a lesser deity",
+        "Christ was a divine spiritual being who only appeared to have a physical body",
+        "The crucifixion and resurrection were not real physical events",
+        "The Catholic Church and its sacraments are institutions of the evil creator",
+        "The consolamentum — a spiritual baptism — is the only valid sacrament",
+        "Procreation is evil because it traps divine sparks in evil matter",
+        "There are two classes of believers — the perfecti and the credentes",
+        "The resurrection of the body is denied — only spiritual liberation matters",
+        "Eating meat and other products of reproduction is forbidden for the perfect",
+        "The cross should be rejected as a symbol of evil, not venerated"
+      ],
+      "summary": "Catharism was the most widespread medieval dualist heresy, flourishing in southern France and northern Italy. It taught that the material world was created by an evil god, that Christ was a purely spiritual being, and that the Catholic Church was satanic. It was suppressed by crusade and inquisition over the 13th and 14th centuries."
+    },
+    {
+      "id": "waldensians",
+      "name": "Waldensians",
+      "alternate_names": ["Vaudois", "Waldenses", "Poor Men of Lyon"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "The Waldensians were condemned as heretics by the medieval Catholic Church primarily for unauthorized preaching and later for positions anticipating the Reformation — rejection of purgatory, critique of unworthy clergy, and emphasis on Scripture. Protestant traditions largely regard the Waldensians as proto-Reformers rather than heretics. The Waldensian church itself aligned with Reformed Protestantism in 1532 and exists today. This entry reflects their condemned medieval positions, not their later Reformed theology.",
+      "council_condemnation": "Excommunicated by Pope Lucius III at the Synod of Verona (1184); condemned at Lateran III and IV; subject to Inquisition proceedings",
+      "fingerprints": [
+        "Lay people have the right and duty to preach Scripture without ecclesiastical authorization",
+        "The validity of sacraments depends on the moral worthiness of the priest",
+        "Purgatory does not exist",
+        "Prayers and masses for the dead are without value",
+        "The institutional church has forfeited its authority through moral corruption",
+        "Scripture alone is the sufficient rule of faith and practice",
+        "Oaths are forbidden by Christ's teaching",
+        "Capital punishment is always wrong"
+      ],
+      "summary": "The Waldensians began as a lay poverty and preaching movement condemned by Rome for unauthorized preaching. Over time they developed positions anticipating the Reformation — rejecting purgatory, critiquing clerical authority, and elevating Scripture. Protestant traditions generally regard them as proto-Reformers rather than heretics. Their entry here reflects the positions for which they were condemned."
+    },
+    {
+      "id": "joachimism",
+      "name": "Joachimism",
+      "alternate_names": ["Joachites", "Spiritual Franciscans (related)", "Apostolic Brethren"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Joachim's specific trinitarian views condemned at Lateran IV (1215); Gerard of Borgo San Donnino's Introductorius condemned (1255); Fra Dolcino executed (1307); Spiritual Franciscans condemned by Pope John XXII (1317–1324)",
+      "fingerprints": [
+        "History is divided into three ages corresponding to Father, Son, and Holy Spirit",
+        "A coming Age of the Spirit will supersede the current Age of the Son",
+        "The institutional church and papacy will become obsolete in the coming spiritual age",
+        "A new Eternal Gospel will supersede the New Testament",
+        "Specific historical figures are identifiable as the Antichrist",
+        "A new order of spiritual monks will replace the current church hierarchy",
+        "New divine revelation has been given about the imminent end of the current age",
+        "The Pope or institutional church is the Whore of Babylon",
+        "The current age of Scripture and sacrament will be replaced by direct spiritual illumination"
+      ],
+      "summary": "Joachimism drew on the visions of Joachim of Fiore to teach that history moves through three ages — Father, Son, and Spirit — and that the institutional church would soon be superseded by a new age of direct spiritual illumination. Radical followers identified the Pope as Antichrist and claimed a new Eternal Gospel would replace the New Testament."
+    },
+    {
+      "id": "flagellantism",
+      "name": "Flagellantism",
+      "alternate_names": ["Flagellants", "Brethren of the Cross"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by Pope Clement VI in the bull Inter Sollicitudines (1349); condemned at the Council of Constance (1415); pursued by local inquisitions through the 15th century",
+      "fingerprints": [
+        "Self-inflicted physical suffering can atone for sin",
+        "Human suffering is redemptively equivalent to or a supplement of Christ's atoning work",
+        "Christ's atonement is insufficient and requires human suffering to complete it",
+        "Performing acts of bodily penance removes the guilt of sin directly",
+        "The church and its sacraments are unnecessary for those who perform sufficient self-punishment",
+        "Direct divine revelation authorizes and commands acts of severe self-mortification",
+        "Physical suffering earns merit before God that offsets the penalty of sin"
+      ],
+      "summary": "Flagellantism arose especially during the Black Death (1347–1351), when groups publicly whipped themselves as corporate penance. The heretical extreme taught that self-inflicted suffering was itself redemptively sufficient — effectively claiming that human pain could complete or replace what Christ's death accomplished, undermining the sufficiency of the atonement."
+    }
+    ,
+    {
+      "id": "hussitism_radical",
+      "name": "Hussitism (Radical Wing)",
+      "alternate_names": ["Taborites", "Pikarts", "Adamites"],
+      "period": "Medieval Period (6th–15th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "The mainstream Hussite position — Utraquism, receiving communion in both bread and wine — is considered by many Protestant traditions to be a legitimate reform rather than a heresy, and Jan Hus himself is regarded as a proto-Reformer by Luther and others. This entry covers the radical Taborite and Pikart wing specifically, whose rejection of the Real Presence, sacraments, and church hierarchy goes beyond what most Protestant traditions would endorse. Catholic and Orthodox traditions condemn the movement broadly; Protestant traditions distinguish between Hus and the radical wing.",
+      "council_condemnation": "Jan Hus condemned and burned at the Council of Constance (1415); John Wycliffe condemned posthumously at the same council; crusade bulls issued against the Hussites; Taborite positions condemned at Constance",
+      "fingerprints": [
+        "The Real Presence of Christ in the Eucharist is denied entirely",
+        "The institutional church and its sacraments have no valid authority",
+        "Purgatory does not exist",
+        "Veneration of saints and relics is forbidden idolatry",
+        "The Pope is the Antichrist",
+        "Direct divine illumination supersedes the authority of Scripture and tradition",
+        "All external religious observance is unnecessary for the truly spiritual",
+        "The truly enlightened are beyond ordinary moral constraints",
+        "Private ownership of property is sinful and should be abolished on Christian grounds"
+      ],
+      "summary": "The radical wing of the Hussite movement went far beyond Jan Hus's own positions, denying the Real Presence, rejecting all sacraments and church authority, and in the most extreme Pikart strand claiming that the truly spiritual are beyond external moral law. Protestant traditions distinguish sharply between Hus as proto-Reformer and the radical Taborite positions condemned here."
+    },
+    {
+      "id": "antinomianism",
+      "name": "Antinomianism",
+      "alternate_names": ["Antinomians", "Ranters (English manifestation)"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned in the Lutheran tradition by the Formula of Concord (1577), Articles V and VI; addressed by Calvin in the Institutes; condemned by the Westminster Confession (1646)",
+      "fingerprints": [
+        "Christians are entirely free from any obligation to the moral law",
+        "The law has no role whatsoever in the Christian life — not for conviction, guidance, or sanctification",
+        "Because salvation is by grace alone, moral conduct is irrelevant to the Christian",
+        "The truly spiritual person is incapable of sin or is beyond moral categories",
+        "Sins committed by believers have no moral significance because they are already forgiven",
+        "The Holy Spirit leads Christians in ways that may contradict the moral law of Scripture",
+        "Preaching the law to Christians is a denial of grace",
+        "Obedience to moral commands is a form of works-righteousness to be rejected",
+        "The inner spiritual life overrides all external moral standards"
+      ],
+      "summary": "Antinomianism taught that because Christians are saved by grace through faith alone, the moral law has no binding role in the Christian life. Extreme forms concluded that the truly spiritual person cannot sin or is beyond moral categories entirely. All major Protestant confessions, alongside Catholic and Orthodox teaching, condemned this as a distortion of grace."
+    },
+    {
+      "id": "socinianism",
+      "name": "Socinianism",
+      "alternate_names": ["Socinians", "Polish Brethren", "Minor Reformed Church of Poland", "Racovians"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Polish Brethren expelled from Poland by the Sejm (1658); condemned in Reformed confessions and by Lutheran orthodoxy; the Racovian Catechism (1605) was the primary document condemned",
+      "fingerprints": [
+        "The Trinity is a false doctrine — God is strictly one person, the Father",
+        "Christ is not co-eternal God but a created and exalted human being",
+        "Christ preexisted only in God's foreknowledge, not ontologically",
+        "Christ's death was not a satisfaction for sin or a penal substitution",
+        "The atonement is a moral example and demonstration of forgiveness, not a legal transaction",
+        "Hell as eternal conscious punishment does not exist",
+        "Original sin in its traditional sense is denied",
+        "Human reason is the final arbiter of all theological claims including Scripture",
+        "Salvation is achieved through moral improvement and obedience aided by Christ's example",
+        "The Holy Spirit is not a distinct divine person",
+        "Miracles and supernatural elements of Scripture should be interpreted rationally"
+      ],
+      "summary": "Socinianism was the most thoroughgoing rationalist critique of orthodox Christianity in the Reformation era. It denied the Trinity, the pre-existence of Christ, penal substitutionary atonement, original sin, and eternal punishment. It treated human reason as the supreme theological authority and anticipated Enlightenment Unitarianism directly."
+    },
+    {
+      "id": "anabaptist_radicalism",
+      "name": "Anabaptist Radicalism",
+      "alternate_names": ["Radical Reformation", "Münsterites", "Spiritualists", "Schwärmer"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "This entry covers the radical wing of Anabaptism specifically — the Münsterites, Thomas Müntzer, and Melchiorite Christology — not mainstream Anabaptism. Mainstream Anabaptist groups such as the Swiss Brethren, Mennonites, and Hutterites held largely orthodox Trinitarian and Christological positions and are considered by many Protestant traditions to be legitimate if non-conformist expressions of Christian faith. The radical positions covered here — violent theocracy, ongoing revelation superseding Scripture, and docetic Christology — are condemned across traditions.",
+      "council_condemnation": "Münster commune crushed by military force (1535); Jan of Leiden executed; condemned by the Second Diet of Speyer (1529) and various imperial edicts; refuted by Luther, Zwingli, and Calvin",
+      "fingerprints": [
+        "Direct ongoing divine revelation supersedes and corrects Scripture",
+        "God calls his people to violent revolutionary action to establish his kingdom now",
+        "A theocratic political kingdom should be established by force before Christ's return",
+        "The truly Spirit-filled leader is above ordinary moral and scriptural constraints",
+        "Polygamy is permitted or commanded for leaders of the renewed community",
+        "Christ did not take on flesh from Mary — he passed through her like water through a pipe",
+        "The inner voice of the Spirit carries more authority than the written Word",
+        "The institutional church must be violently overthrown to prepare for the kingdom",
+        "Baptism and other sacraments are obstacles to pure Spirit-led religion"
+      ],
+      "summary": "The radical wing of Anabaptism — the Münsterites, Müntzer, and Melchiorite groups — combined apocalyptic violence, claims of direct revelation superseding Scripture, and in some cases a docetic Christology denying Christ took flesh from Mary. This entry does not represent mainstream Anabaptism, which is broadly considered orthodox in its Christology."
+    },
+    {
+      "id": "familism",
+      "name": "Familism",
+      "alternate_names": ["Family of Love", "Familia Caritatis"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned by edicts in the Netherlands and England; Queen Elizabeth I issued proclamations against Familism (1580); refuted by various Reformed and Anglican writers",
+      "fingerprints": [
+        "The writings of a living spiritual leader are equal to or surpass Scripture in authority",
+        "True religion consists in being deified or merged into God through love",
+        "Heaven and hell are purely internal spiritual states, not future realities",
+        "The resurrection and final judgment are entirely spiritual or allegorical events",
+        "The truly enlightened are above all external religious observance",
+        "Attending any church while holding private esoteric beliefs is acceptable",
+        "Inner spiritual experience is the only true measure of salvation",
+        "Outward conformity to any religion is permissible because external forms are irrelevant",
+        "A living prophet has received divine inspiration equivalent to Scripture"
+      ],
+      "summary": "Familism was a mystical sect teaching that true religion meant being deified through love, that heaven and hell were inner spiritual states, and that the enlightened were above external religious forms. Its founder Hendrik Niclaes claimed his writings were divinely inspired. Members practiced deliberate dissimulation — attending any church while privately holding Familist beliefs."
+    }
+    ,
+    {
+      "id": "arminianism",
+      "name": "Arminianism",
+      "alternate_names": ["Remonstrants", "Arminians", "Remonstrant theology"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "orthodox",
+        "eastern_orthodox": "orthodox",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "Arminianism is condemned as heresy within the Reformed and Calvinist tradition, which regards it as a form of semi-Pelagianism that undermines divine sovereignty in salvation. However it is considered fully orthodox within Methodist, Wesleyan, General Baptist, Pentecostal, and many other Protestant traditions. Catholic and Eastern Orthodox theology is broadly compatible with Arminian positions on grace and free will — both traditions affirm resistible grace and conditional election in ways similar to Arminius. The app should never return a flat heresy verdict for Arminianism without prominently noting this disagreement.",
+      "council_condemnation": "Condemned within the Reformed tradition at the Synod of Dort (1618–1619), which produced the Canons of Dort; Remonstrant ministers were expelled from the Dutch Reformed Church",
+      "fingerprints": [
+        "God's election of individuals to salvation is conditional on his foreknowledge of their faith",
+        "Christ died for all people without exception, not only for the elect",
+        "Saving grace can be resisted and rejected by the human will",
+        "A genuinely saved person can fall away from grace and lose their salvation",
+        "Prevenient grace restores free will so humans can accept or reject the gospel",
+        "God's predestination is based on his foreknowledge of human choices rather than his sovereign decree",
+        "The atonement is unlimited in its scope and intended for every person"
+      ],
+      "summary": "Arminianism holds that election is conditional on foreknown faith, that Christ died for all, that grace is resistible, and that salvation can be lost. Condemned at the Synod of Dort (1619) within the Reformed tradition as undermining divine sovereignty, it is considered fully orthodox by Methodist, Wesleyan, Catholic, and Eastern Orthodox traditions. This is one of the most significant intra-Protestant theological disputes."
+    },
+    {
+      "id": "jansenism",
+      "name": "Jansenism",
+      "alternate_names": ["Jansenists", "Port-Royalists"],
+      "period": "Reformation Era (16th–17th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "disputed",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "Jansenism is condemned as heresy by the Catholic Church through multiple papal bulls, primarily for its specific propositions about irresistible grace, the impossibility of keeping some commandments, and its rigorist sacramental practice. Eastern Orthodox theology has no formal verdict on Jansenism as it was an internal Catholic controversy. Many Protestant and Reformed theologians find Jansenist positions on grace largely compatible with Augustinian and Calvinist theology — the five condemned propositions resemble Reformed positions closely. The condemnation is therefore specifically Catholic in its force.",
+      "council_condemnation": "Five propositions condemned by Pope Innocent X in Cum Occasione (1653); 101 Jansenist propositions condemned by Pope Clement XI in Unigenitus (1713)",
+      "fingerprints": [
+        "Some of God's commandments are impossible for the justified to keep even with available grace",
+        "Interior grace is irresistible and cannot be refused by the human will",
+        "For an act to be meritorious or sinful it must be free from all external necessity but not from internal necessity",
+        "Semi-Pelagians were wrong to teach that the human will can resist or assent to grace",
+        "It is Semi-Pelagian to say Christ died for all people without exception",
+        "Frequent communion should be restricted to those who have achieved a high degree of moral purity",
+        "Absolution should be withheld until the penitent has demonstrated sustained moral reform",
+        "The institutional church has compromised the rigor of authentic Augustinian Christianity"
+      ],
+      "summary": "Jansenism was a Catholic theological movement claiming to recover Augustinian teaching on grace against Jesuit semi-Pelagianism. Condemned by Rome through multiple bulls, its five core propositions were judged to make grace irresistible and some commandments impossible. Many Protestant and Reformed theologians find the condemned positions compatible with their own theology, making this primarily a Catholic condemnation."
+    },
+    {
+      "id": "deism",
+      "name": "Deism",
+      "alternate_names": ["Natural Religion", "Freethought (partial overlap)"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not formally condemned by a single council; addressed by Anglican, Reformed, Lutheran, and Catholic theologians including William Paley in Natural Theology and Joseph Butler in The Analogy of Religion; condemned implicitly by all confessional standards",
+      "fingerprints": [
+        "God created the universe but does not intervene in it or human history",
+        "Miracles are impossible or have never occurred",
+        "God does not answer prayer or act providentially in the world",
+        "Divine revelation through Scripture or prophets is impossible or unnecessary",
+        "Jesus was a great moral teacher but not God incarnate",
+        "The resurrection did not occur as a supernatural event",
+        "Religion should be reduced to universal rational morality",
+        "The supernatural elements of Christianity are myth or priestly invention",
+        "Human reason alone is sufficient to know God and moral duty",
+        "God is an absentee creator with no ongoing relationship with creation",
+        "The particular historical claims of Christianity are irrelevant to true religion"
+      ],
+      "summary": "Deism held that God created the universe and its rational laws but does not intervene in history — no miracles, revelation, incarnation, resurrection, or providence. Religion was reduced to universal rational morality. It stripped Christianity of every particular historical and theological claim, effectively dismantling it while retaining the word God."
+    },
+    {
+      "id": "unitarianism",
+      "name": "Unitarianism",
+      "alternate_names": ["Unitarians", "Anti-Trinitarians", "Liberal Christianity (overlap)"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Trinitarian orthodoxy defined at Nicaea (325) and Constantinople (381) stands as the primary condemnation; Michael Servetus condemned and executed in Geneva (1553); condemned by all major Protestant confessions",
+      "fingerprints": [
+        "God is strictly one person — the Father — not a Trinity of three persons",
+        "Jesus was a preeminent human teacher and moral example but not divine",
+        "The doctrine of the Trinity is a later corruption of original Christianity",
+        "The Holy Spirit is not a distinct divine person",
+        "Original sin and the Fall are myths or metaphors with no doctrinal weight",
+        "Penal substitutionary atonement is a morally repugnant doctrine to be rejected",
+        "Hell as eternal conscious punishment does not exist",
+        "All religious traditions are equally valid paths to the divine",
+        "Scripture is a human document to be read through rational and moral criticism",
+        "Creeds and confessions have no binding authority on Christian belief",
+        "Jesus's significance lies in his moral teaching and example, not his person or atoning work"
+      ],
+      "summary": "Unitarianism denied the Trinity, holding God to be strictly one person and Jesus to be a supreme moral teacher but not divine. Drawing on Socinian and Enlightenment rationalist roots it also rejected original sin, substitutionary atonement, and eternal punishment. Modern Unitarian Universalism has largely moved beyond Christianity altogether."
+    },
+    {
+      "id": "mormonism",
+      "name": "Mormonism",
+      "alternate_names": ["Latter-day Saints", "LDS", "Church of Jesus Christ of Latter-day Saints"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not addressed by ancient councils as Mormonism postdates them; condemned as non-Christian by Catholic, Orthodox, and major Protestant bodies; addressed in Walter Martin's Kingdom of the Cults and numerous evangelical responses",
+      "fingerprints": [
+        "God the Father was once a mortal man who progressed to divinity",
+        "There are multiple gods — the Father, Son, and Holy Spirit are three entirely separate divine beings",
+        "Human beings are the literal spirit children of God and a Heavenly Mother",
+        "Faithful humans can progress to become gods themselves",
+        "The apostolic church was entirely lost and required restoration through Joseph Smith",
+        "The Book of Mormon, Doctrine and Covenants, and Pearl of Great Price are Scripture equal to or surpassing the Bible",
+        "A living prophet receives new binding divine revelation that can supersede previous Scripture",
+        "Salvation in its fullest sense requires Mormon temple ordinances",
+        "Jesus and Lucifer are spirit brothers — both literal sons of the Heavenly Father",
+        "The God of Christianity prior to Joseph Smith was a false or incomplete understanding of God",
+        "Exaltation — becoming a god — is the ultimate goal of human existence"
+      ],
+      "summary": "Mormonism departs from orthodox Christianity on nearly every foundational doctrine — the nature of God, the Trinity, the uniqueness of Christ, the sufficiency of Scripture, and the nature of salvation. Its teaching that God was once a mortal man and that humans can become gods represents a fundamental break with the monotheism and Christology of historic Christianity across all three traditions."
+    }
+    ,
+    {
+      "id": "jehovahs_witnesses",
+      "name": "Jehovah's Witnesses",
+      "alternate_names": ["Russellites", "Bible Students", "Watch Tower Society"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not addressed by ancient councils; condemned as a modern form of Arianism by Catholic, Orthodox, and mainstream Protestant traditions; the New World Translation's rendering of John 1:1 as 'a god' is rejected by mainstream biblical scholarship",
+      "fingerprints": [
+        "Christ is Michael the Archangel — the first and greatest of God's creations",
+        "Christ is not co-equal or co-eternal with God the Father",
+        "The Holy Spirit is not a divine person but an impersonal active force",
+        "The doctrine of the Trinity is a pagan corruption of original Christianity",
+        "Christ did not rise bodily — his physical body was dissolved and he rose as a spirit being",
+        "The human soul does not survive death — the dead are unconscious until resurrection",
+        "Hell as a place of conscious punishment does not exist — the wicked are annihilated",
+        "Only 144,000 people will reign with Christ in heaven",
+        "The majority of the faithful will live eternally on a restored earthly paradise",
+        "Blood transfusions are forbidden by Scripture",
+        "Celebrating birthdays, Christmas, and Easter is forbidden as pagan"
+      ],
+      "summary": "Jehovah's Witnesses revive an essentially Arian Christology, teaching that Christ is Michael the Archangel and the first of God's creations rather than co-eternal God. They deny the Trinity, the bodily resurrection, the conscious afterlife, and eternal punishment. Their New World Translation alters key Trinitarian texts to support these positions."
+    },
+    {
+      "id": "christian_science",
+      "name": "Christian Science",
+      "alternate_names": ["Church of Christ Scientist"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not addressed by ancient councils; rejected by mainstream Christian traditions as departing fundamentally from biblical theology; Mary Baker Eddy's Science and Health treated as co-equal with Scripture",
+      "fingerprints": [
+        "Matter does not truly exist — only spirit and mind are real",
+        "Disease, sin, and death are illusions of mortal mind with no ultimate reality",
+        "God is the only reality — all else including the physical world is illusion or error",
+        "Christ's work was a demonstration of the unreality of sin and death, not an atoning sacrifice",
+        "Salvation is achieved by correcting false mental beliefs, not by faith in Christ's death",
+        "Medical treatment reinforces the illusion of material disease and should be avoided",
+        "The physical body and its suffering are not real",
+        "The resurrection demonstrated the illusion of death rather than a real bodily event",
+        "Sin is primarily ignorance or wrong thinking rather than moral rebellion against God",
+        "Mary Baker Eddy's writings provide the key to correctly interpreting Scripture"
+      ],
+      "summary": "Christian Science teaches a thoroughgoing idealist metaphysics in which matter, disease, and death are illusions of mortal mind. God alone is real. Christ demonstrated the unreality of sin and death rather than atoning for sin. Salvation comes through correcting false thinking. The denial of material reality makes the Incarnation, bodily resurrection, and substitutionary atonement all impossible."
+    },
+    {
+      "id": "prosperity_gospel",
+      "name": "Prosperity Gospel",
+      "alternate_names": ["Word of Faith", "Health and Wealth Gospel", "Name It and Claim It", "Positive Confession"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not addressed by ancient councils; condemned by a broad coalition of evangelical scholars; addressed critically by the Evangelical Theological Society and numerous Reformed, Lutheran, Catholic, and Orthodox writers; D.R. McConnell's A Different Gospel provides a scholarly critique",
+      "fingerprints": [
+        "Financial wealth and physical health are the guaranteed covenant rights of every Christian",
+        "Poverty and sickness are always the result of insufficient faith or unconfessed sin",
+        "Faith is a spiritual force or law that produces results when activated by correct speech",
+        "Positive verbal confession of desired outcomes causes them to materialize",
+        "Christ's atonement secured physical healing and financial prosperity in addition to forgiveness",
+        "Giving money to a ministry or pastor activates a divine law of financial return",
+        "Believers are divine beings or little gods with the same class of nature as God",
+        "Christ suffered spiritual death and torment in hell as part of the atonement",
+        "God is obligated to bless believers materially when they exercise sufficient faith",
+        "Suffering, poverty, or illness in a Christian's life indicates a faith failure",
+        "The primary purpose of salvation includes earthly comfort, success, and prosperity"
+      ],
+      "summary": "The Prosperity Gospel teaches that financial wealth and physical health are covenant rights secured by Christ's atonement and obtained through faith, positive confession, and giving. It reduces faith to a spiritual force, makes God obligated to material blessing, and implies that suffering reflects inadequate faith. It is condemned across Catholic, Orthodox, and mainstream Protestant traditions."
+    },
+    {
+      "id": "oneness_pentecostalism",
+      "name": "Oneness Pentecostalism",
+      "alternate_names": ["Jesus Only", "Apostolic Pentecostalism", "United Pentecostal Church"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "The ancient form — Sabellianism — was condemned by Pope Callixtus I (c. 220) and at Constantinople (381); modern Oneness Pentecostalism was expelled from the Assemblies of God (1916) following their adoption of the Statement of Fundamental Truths affirming Trinitarian orthodoxy",
+      "fingerprints": [
+        "Father, Son, and Holy Spirit are not three distinct persons but three titles for one person — Jesus",
+        "Jesus is the full name of God — Father, Son, and Holy Spirit are all manifestations of Jesus alone",
+        "The Trinitarian baptismal formula of Matthew 28:19 should be replaced with baptism in Jesus name only",
+        "Baptism in Jesus name only is required for salvation",
+        "Speaking in tongues is the necessary initial evidence of the Holy Spirit and required for salvation",
+        "The doctrine of the Trinity is a pagan corruption introduced after the apostolic age",
+        "There is no personal distinction between the Father and the Son — they are the same person",
+        "The Father did not send the Son as a distinct person — Jesus is himself the Father incarnate"
+      ],
+      "summary": "Oneness Pentecostalism is a modern revival of ancient Modalism, teaching that Father, Son, and Holy Spirit are not three distinct persons but three titles or manifestations of the one God who is Jesus. It requires baptism in Jesus name only and tongues-speaking for salvation. Expelled from the Assemblies of God in 1916 and condemned by all Trinitarian traditions."
+    },
+    {
+      "id": "open_theism",
+      "name": "Open Theism",
+      "alternate_names": ["Openness Theology", "Free Will Theism"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "Open Theism is condemned by Catholic and Eastern Orthodox traditions as incompatible with classical divine omniscience and the doctrine of God. Within Protestantism it is treated as outside orthodoxy by Reformed, Lutheran, and most evangelical bodies — the Evangelical Theological Society asked open theist members to resign in 2003. However a minority of evangelical theologians argue it represents a legitimate intra-evangelical position rather than a heresy proper. The verdict is disputed within Protestantism though rejected by Catholic and Orthodox traditions clearly.",
+      "council_condemnation": "Not addressed by ancient councils directly; condemned by the Evangelical Theological Society (2003); rejected by Reformed, Lutheran, Catholic, and Orthodox traditions; addressed by the Southern Baptist Convention",
+      "fingerprints": [
+        "God does not exhaustively foreknow future free human choices",
+        "The future is genuinely open and unknowable even to God because it does not yet exist",
+        "God takes risks in creation because he cannot know with certainty how free creatures will choose",
+        "God learns, adjusts, and responds to human decisions in real time",
+        "Biblical passages where God repents or changes his mind describe real changes in God's knowledge or intention",
+        "Exhaustive divine foreknowledge is incompatible with genuine human freedom",
+        "God's omniscience covers all past and present reality but not the undetermined future",
+        "The certainty of biblical prophecy is based on God's power to ensure outcomes not on foreknowledge"
+      ],
+      "summary": "Open Theism holds that God does not exhaustively foreknow future free human choices — the future is genuinely open even to God. Presented as the best way to preserve human freedom and explain biblical passages where God changes his mind, it is rejected by Catholic and Orthodox traditions and by most Protestant bodies as incompatible with classical divine omniscience and the certainty of redemptive promises."
+    },
+    {
+      "id": "progressive_christianity",
+      "name": "Progressive Christianity",
+      "alternate_names": ["Liberal Christianity", "Revisionist Christianity", "Emergence Christianity"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "disputed",
+        "verdict": "disputed"
+      },
+      "tradition_notes": "Progressive Christianity is a broad and varied movement. At its moderate end it represents theological liberalism with which some Protestant denominations have significant sympathy. At its radical end — denying the bodily resurrection, the uniqueness of Christ, the authority of Scripture, and traditional sexual ethics — it departs from historic Christianity so thoroughly that Catholic, Orthodox, and most Protestant traditions regard it as outside orthodox Christianity. The disputed verdict reflects the spectrum: moderate progressive positions are debated within mainline Protestantism while the most radical positions are condemned across traditions. The fingerprints below reflect the more clearly heterodox positions within the movement.",
+      "council_condemnation": "Not addressed by ancient councils; the Catholic Congregation for the Doctrine of the Faith addressed related themes in Dominus Iesus (2000); the Chicago Statement on Biblical Inerrancy (1978) addresses the biblical authority questions involved",
+      "fingerprints": [
+        "The bodily resurrection of Christ did not occur as a historical physical event",
+        "Jesus is one valid path to God among many — other religions are equally salvific",
+        "The Bible is a purely human document with no unique divine authority",
+        "The substitutionary atonement is a morally primitive or repugnant doctrine to be rejected",
+        "Traditional sexual ethics are cultural constructs with no binding biblical authority",
+        "Sin is primarily structural and social rather than personal moral rebellion against God",
+        "Hell as a place of conscious punishment does not exist",
+        "The creeds and confessions of historic Christianity are not binding on contemporary believers",
+        "Christian identity can be maintained while rejecting the supernatural claims of the faith",
+        "God is not a personal being who acts in history but a metaphor for human values or love",
+        "The virgin birth is a theological symbol rather than a historical event"
+      ],
+      "summary": "Progressive Christianity is a broad movement ranging from moderate theological liberalism to radical revisionism. At its furthest extent it denies the bodily resurrection, the uniqueness of Christ, the authority of Scripture, and substitutionary atonement while retaining Christian language. Catholic and Orthodox traditions condemn the radical positions clearly; the verdict within Protestantism depends heavily on which specific claims are in view."
+    }
+    ,
+    {
+      "id": "adoptionism",
+      "name": "Adoptionism",
+      "alternate_names": ["Adoptianists", "Dynamic Monarchianism", "Psilanthropism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Antioch (268) in the case of Paul of Samosata; elements condemned at Nicaea (325); the Spanish form condemned at the Council of Frankfurt (794) and Council of Rome (799)",
+      "fingerprints": [
+        "Jesus was born an ordinary human being with no divine pre-existence",
+        "God adopted Jesus as his Son at a specific moment — his baptism, resurrection, or birth",
+        "Jesus became the Son of God by divine appointment or reward for his righteousness",
+        "Christ had no existence as the eternal Son before his human birth",
+        "The divine sonship of Jesus is a status conferred upon him, not a nature he possesses eternally",
+        "Jesus was elevated to divine status because of his perfect obedience",
+        "God dwelt in Jesus as in a temple or vessel but Jesus was not himself God by nature",
+        "The title Son of God describes a role or relationship, not an eternal ontological reality",
+        "There was a moment in time when Jesus became or was declared the Son of God"
+      ],
+      "summary": "Adoptionism taught that Jesus was born a fully human being who was later adopted or appointed as the Son of God — typically at his baptism or resurrection — as a reward for his perfect righteousness. It denies the eternal pre-existence of the Son and reduces divine sonship to an honorary status rather than an eternal nature. It recurs across different periods and is the Christological error most closely associated with modern liberal theology's view of Jesus as an inspired human being."
+    },
+    {
+      "id": "subordinationism",
+      "name": "Subordinationism",
+      "alternate_names": ["Subordinationist theology", "Ontological subordinationism"],
+      "period": "Early Church (1st–5th Century)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Condemned at the Council of Nicaea (325) and First Council of Constantinople (381), which defined the Son as homoousios — of the same substance — with the Father and affirmed the full divinity of the Holy Spirit",
+      "fingerprints": [
+        "The Son is lesser than the Father in divine nature or essence, not merely in role",
+        "The Holy Spirit is lesser in divine nature than the Father and Son",
+        "There is a hierarchy of being within the Trinity — the Father is more fully divine",
+        "The Son derives his divine nature from the Father making him secondary in essence",
+        "The persons of the Trinity are unequal in their divine attributes or perfections",
+        "The Father alone possesses the fullness of divinity — the Son and Spirit share it partially or derivatively",
+        "The Son is eternally begotten in a way that makes him ontologically inferior to the Father",
+        "Worship and prayer should be directed primarily or exclusively to the Father as the supreme deity"
+      ],
+      "summary": "Subordinationism teaches that the Son and Holy Spirit are lesser than the Father in their divine nature or essence — not merely in their eternal roles or missions. It is the broad category of which Arianism is the most extreme form. It must be carefully distinguished from the orthodox doctrine of eternal functional subordination, which holds that the Son submits to the Father in role and mission while remaining fully equal in divine nature and essence."
+    },
+    {
+      "id": "kenosis_heretical",
+      "name": "Kenosis (Heretical Form)",
+      "alternate_names": ["Kenoticism", "Kenotic theology (extreme)"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "heresy",
+        "eastern_orthodox": "heresy",
+        "protestant": "heresy",
+        "verdict": "universal"
+      },
+      "council_condemnation": "Not addressed by ancient councils as the modern controversy postdates them; condemned by Catholic, Orthodox, and mainstream Protestant theologians as incompatible with the full divinity of Christ and Chalcedonian Christology",
+      "fingerprints": [
+        "Christ permanently surrendered or gave up his divine attributes at the Incarnation",
+        "The incarnate Christ was not omniscient — he genuinely did not know things as a result of emptying himself of divine knowledge",
+        "The incarnate Christ was not omnipotent — he genuinely lacked divine power as a result of the kenosis",
+        "The incarnate Christ was not omnipresent — he was spatially limited not merely by choice but by nature during the Incarnation",
+        "Christ ceased to be fully God during his earthly life because he emptied himself of divine attributes",
+        "The kenosis involved an actual ontological diminishment of Christ's divine nature",
+        "Christ had to reacquire or have restored his divine attributes after the resurrection",
+        "The self-emptying of Philippians 2:7 means Christ gave up the possession of divine attributes not merely their use"
+      ],
+      "summary": "The heretical form of Kenotic theology teaches that Christ literally surrendered or gave up his divine attributes — omniscience, omnipotence, omnipresence — at the Incarnation, making him less than fully God during his earthly life. This contradicts Chalcedonian Christology, which affirms Christ as fully divine and fully human simultaneously. If Christ was not fully God incarnate, the atonement and resurrection lose their divine weight."
+    },
+    {
+      "id": "kenosis_moderate",
+      "name": "Kenosis (Moderate/Orthodox Form)",
+      "alternate_names": ["Voluntary kenosis", "Functional kenosis"],
+      "period": "Modern Period (18th Century–Present)",
+      "consensus": {
+        "catholic": "orthodox",
+        "eastern_orthodox": "orthodox",
+        "protestant": "orthodox",
+        "verdict": "universal"
+      },
+      "council_condemnation": "None — this position is considered compatible with Chalcedonian Christology by mainstream Catholic, Orthodox, and Protestant theologians",
+      "fingerprints": [
+        "Christ voluntarily chose not to exercise or access his divine attributes during his earthly ministry",
+        "Christ retained full divine nature during the Incarnation but willingly limited the use of divine prerogatives",
+        "The self-emptying of Philippians 2:7 refers to Christ setting aside the independent exercise of divine attributes not their possession",
+        "Christ's expressions of human limitation — hunger, tiredness, not knowing the day or hour — reflect voluntary self-restriction not ontological diminishment",
+        "The kenosis was an act of divine condescension and humility not a surrender of divine nature",
+        "Christ remained fully God while genuinely experiencing human limitation by choice"
+      ],
+      "summary": "The moderate or orthodox form of Kenotic theology holds that Christ voluntarily chose not to independently exercise his divine attributes during his earthly ministry — setting aside their use rather than surrendering their possession. This is considered compatible with Chalcedonian Christology by Catholic, Orthodox, and mainstream Protestant traditions. It explains Christ's genuine human experiences of limitation without compromising his full divinity. This entry is included to help the app distinguish orthodox kenotic statements from the heretical form above."
+    }
+  ]
+}
